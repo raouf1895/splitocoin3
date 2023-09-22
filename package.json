@@ -1,0 +1,21 @@
+{
+    "name": "walletconnect-modal-sign-html",
+    "private": true,
+    "version": "2.6.1",
+    "type": "module",
+    "main": "index.html",
+    "scripts": {
+        "dev": "vite",
+        "build": "node -v && npm -v && npm clean-install && next build",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./node_modules/vite/bin/react-scripts.js start"
+    },
+    "dependencies": {
+        "@walletconnect/modal-sign-html": "2.6.1"
+
+        
+    },
+    "devDependencies": {
+        "vite": "4.3.9"
+    }
+}
